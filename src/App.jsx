@@ -1,12 +1,14 @@
 
 import './App.css'
+import Pokedeck from './Pokedeck/pokedeck'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
   
       <>
+      <Pokedeck/>
       </>
   )
 }

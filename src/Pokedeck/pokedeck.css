@@ -1,0 +1,44 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(100, 154, 100, 0.589);
+}
+
+.deck
+{
+    /* max-width: 1000px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.imp
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    align-items: center;
+
+}
+
+div > .imp
+{
+    justify-content: space-between;
+    
+}
+button
+{
+    margin: 10px 0px 0px 20px;
+    width: 100px;
+    height: 25px;
+    color: brown;
+}
