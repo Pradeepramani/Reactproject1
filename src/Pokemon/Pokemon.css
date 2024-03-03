@@ -11,6 +11,18 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: rgba(79, 138, 79, 0.66);
+    /* font-style: ; */
+    text-decoration: none;
 }
 
+[alt="pokemonimage"]
+{
+height: 150px;
+width: 150px;
+display: block;
+}
+
+h1 > div >  Link{
+    
+    text-align: center;
+}
